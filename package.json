@@ -1,0 +1,10 @@
+{
+  "name":"paulborawski.com",
+  "description":"my website bitches!",
+  "dependencies": {
+    "express":"",
+    "compression":"",
+    "body-parser":"",
+    "stylus":""
+  }
+}
