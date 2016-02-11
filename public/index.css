@@ -1,119 +1,107 @@
-body {
-	font: normal 15px/15px 'Helvetica';
+/*body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  height: 550px;
-  background: url(https://cldup.com/aiMzzadqmt.jpg) no-repeat center bottom;
+#page {
+  max-width: 1200px;
+  margin: 0 auto;
   position: relative;
 }
 
-h1 {
-    text-align: center;
-    padding: 0px 0px 0px 40px;
-    font-size: 50px;
-    color: #F2F0f0;
-    font-family: 'Sigmar One', cursive;
-    text-shadow: 0px -3px 2px #554F4f;
+header {
+  height: 1000px;
+  background: #000 url(https://cldup.com/4jAQW6AOZP.jpg) no-repeat center bottom;
+  position: relative;
+  background-size: cover;
 }
-
-h2 {
-  text-align: center;
-    font-size: 50px;
-    color: #f2f0f0;
-    font-family: 'Sigmar One', cursive;
-    text-shadow: 0px 4px 4px #554f4f;
-    padding: 280px 0px 0px 40px;
-}
-
-h3 {
-  text-align: center;
-    font-size: 50px;
-    color: #f2f0f0;
-    font-family: 'Sigmar One', cursive;
-    text-shadow: 0px 3px 4px #554f4f;
-    padding: 0px 0px 10px 40px;
-		margin: 0px 0px -10px 0px;
-}
-
-h4 {
-  text-align: right;
-  font-size: 30px;
-  color: #f2f0f0;
-  font-family: 'Sigmar One', cursive;
-  text-shadow: 0px 3px 4px #554f4f;
-  padding: 100px 0px 10px 40px;
-	margin: 0px 62px 0 0;
-	z-index: -2;
-}
-
-
-}
-ul.player {
-	margin: 0 auto;
-	margin-top: 100px;
-	list-style: none;
-}
-
-ul.player li {
-	border-bottom: 1px solid #999;
-	color: #444;
-	padding: 20px 80px 20px 80px;
-	background: url(https://cldup.com/_Z49nKVdvE.png) no-repeat 8px 7px;
-	background-color: #000;
-	background-position: 58px 17px;
-	cursor: pointer;
-  text-align: center;
+*/
+header a.logo {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 66px;
+  background: url(https://cldup.com/UEwTPNnP1h.jpg) no-repeat 0 0;
+  background-size: contain;
+  top: 10px; left: 10px;
+  font-size: 1.7em;
   color: #fff;
-  width: 400px;
-  margin: auto;
-  font-family: 'Sigmar One', cursive;
-  font-size: 25px;
-  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+  border-style: solid;
+  border-color: rgba(128,128,128, .4);
+  border-width: 1px;
 }
 
-ul.player li:first-child {
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	border-top: none;
+header a.logo span  {display: left;}
+/*
+header div.hero {
+  position: absolute;
+  width: 40%;
+  bottom: 12%;
+  left: 62%;
 }
 
-ul.player li:last-child {
-	-webkit-border-bottom-left-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	border-bottom: none;
+header div.hero h1 {
+	font-size: 50px;
+	line-height: 1em;
+  margin: 0 0 10px 0;
+  color: #fff;
 }
 
-ul.player li {
-	transition: color .4s;
+header a.btn {
+  font-size: 40px;
+  color: #fff;
 }
 
-ul.player li:hover {
-	background-color: #000;
-	color: #1a4740;
+/* section main */
+/*
+section.main {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0;
 }
 
-ul.player li#playing {
-	background: url(https://cldup.com/YQtCBSmIbq.png) no-repeat 8px 7px;
-	-webkit-filter: invert(1);
-	filter: invert(1);
-	background-color: #000;
-	color: #fff;
-	font-weight: bold;
-	background-position: 458px 17px;
+section.main aside {
+  width: 33%;
+  float: left;
+  text-align: center;
 }
 
-
-
-ul.player li#paused {
-	background: url(https://cldup.com/_Z49nKVdvE.png) no-repeat 8px 7px;
-	background-color: #000;
-	color: #FFF;
-	font-weight: bold;
-	background-position: 58px 17px;
+section.main .content {
+  margin: 15px;
+  background: no-repeat center top;
+  background-size: 75px 75px;
+  padding-top: 85px;
 }
 
-nav {
+section.main aside h3 a {
+  text-decoration: none;
+  transition: 1s;
+}
+
+section.main aside h3 a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+section.main aside .content.trending {
+  background-image: url(https://cldup.com/HOk7IFwFrT.svg);
+}
+section.main aside .content.find-it {
+  background-image: url(https://cldup.com/etA73HchTL.svg);
+}
+section.main aside .content.tools {
+  background-image: url(https://cldup.com/Arbc3osyFe.svg);
+}
+
+/* navigation */
+/*nav {
   background-color: rgba(0,0,0,.65);
   position: absolute;
   top: 0px;
@@ -178,7 +166,7 @@ nav ul ul ul {
 
 
 /* top level */
-nav > ul {
+/*nav > ul {
   padding-left: 100px;
 }
 
@@ -209,4 +197,14 @@ nav > ul >li > a[aria-haspopup="true"]::after {
   border-top: solid #fff;
   left: 20px; right: auto;
   bottom: 6px; top: auto;
+}
+*/
+@media screen and (max-width: 470px) {
+  /* header */
+ header a.logo {
+	 z-index: -1;
+ }
+header div h5 {
+  font-size: 135px;
+}
 }

@@ -1,10 +1,13 @@
 {
-  "name":"paulborawski.com",
-  "description":"my website bitches!",
+  "name": "paulborawski.com",
+  "description": "my website bitches!",
   "dependencies": {
-    "express":"",
-    "compression":"",
-    "body-parser":"",
-    "stylus":""
+    "body-parser": "",
+    "compression": "",
+    "express": "",
+    "jquery": "^2.2.0",
+    "less": "^2.6.0",
+    "sass": "",
+    "stylus": ""
   }
 }
