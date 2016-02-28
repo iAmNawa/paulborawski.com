@@ -13,6 +13,13 @@
 
 }
 */
+
+
+@font-face { font-family: 'LeagueGothic-Regular'; src: url('../public/css/fonts/LeagueGothic-Regular.otf'); }
+
+
+
+
 h5 {
   margin-top: 80px;
   font-size: 180px;
@@ -87,4 +94,25 @@ section div div div.col-lg-10 h2 {
 
 section div div div.col-lg-10 a.btn btn-dark {
   color: #000;
+}
+
+aside div.text-vertical-center a {
+  font-family: LeagueGothic-Regular;
+  text-decoration: none;
+}
+
+aside div.text-vertical-center a h1:link {
+  text-decoration: none;
+}
+
+aside div.text-vertical-center a h1:active {
+  text-decoration: none;
+}
+
+aside div.text-vertical-center a h1:visited {
+  text-decoration: none;
+}
+
+aside div.text-vertical-center a:hover {
+  text-decoration-color: green;
 }
