@@ -248,3 +248,14 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+
+@media(max-width:400px) {
+  .text-vertical-center h1 {
+    font-size: 35px;
+  }
+
+  .text-vertical-center h1:hover {
+    font-size: 37px
+  }
+}
