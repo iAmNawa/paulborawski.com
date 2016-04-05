@@ -259,3 +259,16 @@ footer {
     font-size: 37px
   }
 }
+
+
+#one {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5%;
+  transition: .2s;
+}
+
+#one:hover {
+  -webkit-transform:  scale(1.05);
+}
