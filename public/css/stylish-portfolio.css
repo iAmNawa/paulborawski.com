@@ -272,3 +272,8 @@ footer {
 #one:hover {
   -webkit-transform:  scale(1.05);
 }
+
+#footy {
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
