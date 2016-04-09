@@ -8,7 +8,7 @@ app.use(require('stylus').middleware(require('path').join(__dirname, 'public')))
 app.use(require('express').static('public'));
 
 require('http').createServer(app).listen(port,function(){
-  console.log('server is running you beeezy, on port', port)
+  console.log('server is running, on port', port)
 });
 
 

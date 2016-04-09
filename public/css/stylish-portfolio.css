@@ -27,8 +27,9 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-    color: black;
-    transition: .5s;
+    color: #f7deb2;
+    transition: .3s;
+    text-shadow: 1px 1px 0px black;
 }
 
 .text-vertical-center h1:hover {
@@ -36,7 +37,7 @@ body {
   color: #ffefce;
   font-size: 64px;
   text-decoration: none;
-  text-shadow: 2px 2px 10px black;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* Custom Button Styles */
@@ -195,7 +196,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(https://cldup.com/po-ZbYu5MP.jpg) no-repeat center center scroll;
+    background: url(https://cldup.com/Yr2KLQajgF.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -275,5 +276,9 @@ footer {
 
 #footy {
   padding-top: 20px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
+}
+
+#nothingsatisfies {
+  background-color: rgba(0,0,0,.15);
 }
