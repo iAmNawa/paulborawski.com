@@ -28,14 +28,14 @@ body {
     font-size: 4.5em;
     font-weight: 700;
     color: #f7deb2;
-    transition: .3s;
+    transition: .2s;
     text-shadow: 1px 1px 0px black;
 }
 
 .text-vertical-center h1:hover {
   text-decoration: none;
   color: #ffefce;
-  font-size: 64px;
+  font-size: 4.5em;
   text-decoration: none;
   text-shadow: 1px 1px 2px black;
 }
