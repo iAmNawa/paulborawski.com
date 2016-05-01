@@ -20,7 +20,7 @@ header {
   background-size: cover;
 }
 */
-header a.logo {
+/*header a.logo {
   z-index: 1;
   position: absolute;
   display: block;
@@ -38,7 +38,7 @@ header a.logo {
   border-width: 1px;
 }
 
-header a.logo span  {display: left;}
+header a.logo span  {display: left;} */
 /*
 header div.hero {
   position: absolute;
