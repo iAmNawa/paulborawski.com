@@ -10,7 +10,3 @@ app.use(require('express').static('public'));
 require('http').createServer(app).listen(port,function(){
   console.log('server is running, on port', port)
 });
-
-
-//app.set is for configurations
-//app.use is for middleware
