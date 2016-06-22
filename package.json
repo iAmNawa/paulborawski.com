@@ -1,6 +1,6 @@
 {
   "name": "paulborawski.com",
-  "description": "my website bitches!",
+  "description": "my website.",
   "dependencies": {
     "body-parser": "",
     "compression": "",
