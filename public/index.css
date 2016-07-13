@@ -1,3 +1,7 @@
+#weatherd {
+  text-align: left;
+}
+
 @media screen and (max-width: 470px) {
   /* header */
  header a.logo {
