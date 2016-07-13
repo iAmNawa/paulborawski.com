@@ -321,10 +321,12 @@
 
 
     <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.2.min (1).js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script type ="text/javscript" src="js/bootstrap.min.js"></script>
+    <script type ="text/javscript" src="index.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -340,7 +342,39 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
 
+    //Weather api
+    $(window).load(function() {
+
+      apiCall();
+    });
+
+    function C2F(k) {
+      return Math.round(k * (9 / 5) + 32) + "*";
+    }
+
+    var apiCall=function(){
+    $.getJSON("http://ip-api.com/json", function(data) {
+        var lati = data.lat;
+        var loni = data.lon;
+        console.log(lati);
+      console.log(loni);
+      console.log(data.city);
+      $(".city").html(data.city);
+      $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+lati+"&lon="+loni+"&units=metric"+"&type=accurate"+"&APPID=87477587e12826b182b4b7cef844ec61", function(data1) {
+        var weath=C2F(data1.main.temp);
+        console.log(weath);
+        console.log(data1.sys);
+        console.log(data1.weather);
+       $(".temp").html(weath);
+        $(".condition").html(data1.weather[0].description);
+      });
+
+    });
+    };
+
     // Scrolls to the selected menu item on the page
+
+
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
