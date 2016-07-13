@@ -1,5 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100);
+
+/* Weather API */
+
 #weatherd {
-  text-align: left;
+  text-align: center;
+  font-family: LeagueGothic-Regular, arial;
+  font-weight: 500;
+/*  background-color: black;
+  color: white; */
+}
+
+.local {
+  font-size: 3em;
+}
+
+.weathtags {
+  font-size: 2.2em;
 }
 
 @media screen and (max-width: 470px) {
