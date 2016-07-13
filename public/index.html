@@ -93,9 +93,9 @@
                 <div class="col-lg-12 text-center">
                   <div id="weatherd" class="container boxed">
                 <span class="local">LOCAL WEATHER...</span>
-                  <span class="weathtags">&nbsp&nbsp&nbsp&nbsp&nbspCITY:&nbsp&nbsp</span><span class="city"></span>
-                  <span class="weathtags">&nbsp&nbsp&nbsp&nbsp&nbspTEMP:&nbsp&nbsp</span><span class="temp"></span><span> Fahrenheit</span>
-                  <span class="weathtags">&nbsp&nbsp&nbsp&nbsp&nbspCONDITION:&nbsp&nbsp</span></span><span class="condition"></span>
+                  <span class="weathtags">&nbsp&nbsp&nbsp&nbsp&nbspCITY:&nbsp&nbsp</span><span id="conditions" class="city"></span>
+                  <span class="weathtags">&nbsp&nbsp&nbsp&nbsp&nbspTEMP:&nbsp&nbsp</span><span id="conditions2" class="temp"></span><span id="conditions3" class="conditions">F</span>
+                  <span class="weathtags">&nbsp&nbsp&nbsp&nbsp&nbspCONDITION:&nbsp&nbsp</span></span><span id="conditions4" class="condition"></span>
               </div>
                <hr>
                     <h2>Summary</h2>
@@ -326,7 +326,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script type ="text/javscript" src="js/bootstrap.min.js"></script>
-    <script type ="text/javscript" src="index.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -372,6 +371,11 @@
     });
     };
 
+    document.querySelector("#conditions").style.fontSize = "35px";
+    document.querySelector("#conditions2").style.fontSize = "35px";
+    document.querySelector("#conditions3").style.fontSize = "35px"
+    document.querySelector("#conditions4").style.fontSize = "35px";
+
     // Scrolls to the selected menu item on the page
 
 
@@ -391,7 +395,6 @@
         });
     });
     </script>
-
 </body>
 
 </html>
