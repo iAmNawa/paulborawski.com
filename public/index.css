@@ -26,4 +26,12 @@
 header div h5 {
   font-size: 135px;
 }
+.local {
+    font-size: 1.7em;
+  }
+
+.weathtags {
+  font-size: 1.4em;
+}
+
 }
