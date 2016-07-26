@@ -24,6 +24,13 @@
   font-size: 2.8em;
 }
 
+#menu-toggle:hover {
+  color: #f7deb2;
+}
+#menu-close:hover {
+  color: black;
+}
+
 @media screen and (max-width: 470px) {
   /* header */
  header a.logo {
