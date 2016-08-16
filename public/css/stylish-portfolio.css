@@ -289,3 +289,7 @@ footer {
   font-family: 'Open Sans', sans-serif;
   text-shadow: 2px 2px 1px black;
 }
+
+.skills {
+  text-align: center;
+}
