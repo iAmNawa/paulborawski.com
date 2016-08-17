@@ -4,3 +4,6 @@ my personal website
 
 # config
 im running under nginx proxy. see conf folder for specifics.
+
+# contact
+You can contact me at paulborawski14@gmail.com
