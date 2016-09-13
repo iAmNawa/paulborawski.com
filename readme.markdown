@@ -7,3 +7,6 @@ im running under nginx proxy. see conf folder for specifics.
 
 # contact
 You can contact me at paulborawski14@gmail.com
+
+# other contact
+You can also find my phone number at alyandtj.com
