@@ -3,6 +3,7 @@
 my personal website
 
 # config
+https cert from letsencrypt.org
 im running under nginx proxy. see conf folder for specifics.
 
 # contact
