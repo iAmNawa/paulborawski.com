@@ -14,3 +14,8 @@ You can also find my phone number at alyandtj.com or at the bottom of paulboraws
 
 # info
 This website is built using JavaScript, nginx, bootstrap, JSON, css, and HTML.
+
+#Every 90 days the ssl certificate must be renewed
+
+Use this command on the server in etc/letsencrypt
+sudo letsencrypt certonly -a webroot --webroot-path=/var/www/html -d paulborawski.com -d www.paulborawski.com
