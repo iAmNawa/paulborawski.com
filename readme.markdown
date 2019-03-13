@@ -13,4 +13,4 @@ You can contact me at paulborawski14@gmail.com or by phone number (415) 246-0586
 You can also find my phone number at alyandtj.com or at the bottom of paulborawski.com
 
 # info
-This website is built using JavaScript, NGINX, bootstrap, JSON, CSS, and HTML.
+This website is built using JavaScript, NGINX, bootstrap, JSON, CSS, and HTML.  Let me know if you have any questions.
